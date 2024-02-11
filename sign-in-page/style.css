@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+
+}
+
+
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: var(--tertiary-color);
+  color: #fff;
+}
+
+
+
+
+:root {
+  --primary-color:rgb(0, 0, 0):
+  --secondary-color:rgb(229, 9, 20):
+  --tertiary-color: rgb(255, 255, 255)
+}
+
+
+
+.main {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("img/NG-en-20230807-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 105vh; */
+  padding: 0 9.6rem;
+  /* border-bottom: 0.8rem solid #919191; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+ background-color: #000000b3;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border-radius: .4rem;
+ padding: 4rem 4rem 8rem;
+}
+
+
+.input {
+  background-color: transparent;
+  padding: 2.4rem 8rem 2.4rem 1.6rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  border: .1rem solid gray;
+  border-radius: .4rem;
+
+}
+
+.btn {
+  background-color: rgb(229, 9, 20);
+  color: #ffff;
+  padding: 2.4rem 12.4rem ;
+  font-size: 1.6rem;
+  border-radius: .4rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.chek {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  width: 32rem;
+}
+
+.chek p {
+  margin-left: 1.2rem;
+  font-size: 1.6rem;
+}
+
+.capcha {
+  width: 32rem;
+  /* text-align: center; */
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.pp {
+  color: gray;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+
+/* media query */
+
+@media(max-width:20em){
+  .input {
+    padding: 2.4rem 4rem 2.4rem 1.2rem;
+  }
+
+  .btn {
+    padding: 2.4rem 8rem;
+  }
+    .capcha {
+      width: ;
+    }
+    .capcha {
+      width: 16rem;
+      font-size: .8rem;
+    }
+    .capcha {
+      width: 20rem;
+      font-size: 1.2rem;
+    }
+}
+/* 
+@media(max-width:){}
+@media(max-width:){}
+@media(max-width:){} 
+*/
