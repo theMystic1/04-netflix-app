@@ -432,6 +432,10 @@ ion-icon {
  .logo {
     display: none;
   }
+
+  .nav-bar .btn {
+    display: flex;
+  }
   .heading, .h3, .p {
     text-align: center;
   }
