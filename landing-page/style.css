@@ -429,7 +429,7 @@ ion-icon {
     flex-direction: column;
   }
 
-  .nav-bar .logo {
+ .logo {
     display: none;
   }
   .heading, .h3, .p {
